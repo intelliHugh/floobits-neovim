@@ -1,7 +1,7 @@
 " Copyright 2014-2016 Floobits, Inc
 
 
-if !has('python')
+if !has('python') && !has('python3')
    echomsg "Floobits error: no neovim python module. Run `pip install neovim` to fix. For more info, :he nvim-python"
 endif
 
